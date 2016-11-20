@@ -105,12 +105,12 @@ a {
   color:white;
 }
 .first{
-  background-image: url("img/todo_app.png");
+  background-image: url("../img/todo_app.png");
   background-size: cover;
   background-position: center;
 }
 .second {
-  background-image: url("img/angular_shopping_list.png");
+  background-image: url("../img/angular_shopping_list.png");
   background-size: cover;
   background-position: center;
 }
