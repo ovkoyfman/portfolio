@@ -105,7 +105,12 @@ a {
   color:white;
 }
 .first{
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/477025/todo_app.png");
+  background-image: url("img/todo_app.png");
+  background-size: cover;
+  background-position: center;
+}
+.second {
+  background-image: url("img/angular_shopping_list.png");
   background-size: cover;
   background-position: center;
 }
