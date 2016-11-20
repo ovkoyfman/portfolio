@@ -3,6 +3,7 @@
   background-image:
     url("https://images.unsplash.com/photo-1445620466293-d6316372ab59?crop=entropy&fit=crop&fm=jpg&h=1000&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925");
   background-attachment: fixed;
+  background-size:cover;
 }
 .backround-about{
   background-image: url("https://images.unsplash.com/photo-1422433555807-2559a27433bd?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925");
@@ -17,6 +18,7 @@
 .backround-portfolio{
   background-image: url("https://images.unsplash.com/photo-1416339684178-3a239570f315?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925");
   background-attachment: fixed;
+  background-size:cover;
 }
 .backround-contact{
   background-image: url("https://images.unsplash.com/photo-1414919823178-e9d9d0afd0ac?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=3fe4cae5ea0cd9967d0f40853aa5065e");
