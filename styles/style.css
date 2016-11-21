@@ -35,10 +35,14 @@ background-attachment: fixed;
   text-shadow: 2px 2px 8px #000;
   padding-top:200px;
 }
+.push-buttom{
+  margin-bottom: 100px;
+}
+}
 button {
   height: 50px;
   min-width:120px;
-  margin-top: 100px;
+  margin-top: 20px;
   margin-left: 5%;
 }
 a {
@@ -49,7 +53,7 @@ a {
   color: #fff;
 }
 .navbar-home {
-  background-color: #70716E;
+  background-color: #35364A;
 }
 .navbar-about .navbar-nav>.active>a, .navbar-about .navbar-nav>li>a:hover {
   background-color:#406558; 
@@ -72,15 +76,14 @@ a {
 .navbar-portfolio {
   background-color: #2B2D2B;
 }
-.btn-default {
-    color: #f5f5f5;
-    background-color: #080808;
-    border-color: #ccc;
+.btn {
+  height: 40px;
 }
-.btn-default:hover {
-  color: #080808;
-  background-color: #f5f5f5;
-  border: 2px solid #000;
+.btn-default {
+    margin-bottom: 30px;
+    color: #FFF;
+    background-color: #373C5D;
+    border-color: #FFF;
 }
 .top {
   height: 250px;
@@ -89,6 +92,23 @@ a {
   font-size: 2em;
   color: #fff;
   text-shadow: 2px 2px 8px #000;
+}
+button.resume{
+  background-color: #406558;
+
+}
+
+button.reference:hover,:visited,:active{
+  background-color: #A6AAAD;
+  color: white;
+  border:1px solid white;
+  
+}
+button.resume:hover,:visited,:active{
+  background-color: #574E49;
+  color: white;
+  border:1px solid white;
+  
 }
 .portfolio{
   height: 35%;
