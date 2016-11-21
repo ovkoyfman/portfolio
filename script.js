@@ -12,6 +12,8 @@ $(window).scroll(function() {
     $('.navbar').removeClass('navbar-about');
     $('.navbar').removeClass('navbar-clear');
     $('#a').removeClass('active');
+    $('#p').removeClass('active');
+    $('#c').removeClass('active');
     $('#h').addClass('active');
     
   }
@@ -40,7 +42,9 @@ $(window).scroll(function() {
     $('.navbar').removeClass('navbar-default');
     $('.navbar').removeClass('navbar-about');
     $('.navbar').removeClass('navbar-home');
+    $('#a').removeClass('active');
     $('#p').removeClass('active');
+    $('#h').removeClass('active');
     $('#c').addClass('active');
   }
 });
@@ -49,15 +53,4 @@ $(window).resize(function() {
  offsetPortfolio = divPortfolio.offset().top;
  offsetContact = divContact.offset().top;
 });
-$('#h').click(function() {
-  $('#a').removeClass('active');
-  $('#p').removeClass('active');
-  $('#c').removeClass('active');
-  $('#h').addClass('active');
-});
-$('#c').click(function() {
-  $('#a').removeClass('active');
-  $('#p').removeClass('active');
-  $('#h').removeClass('active');
-  $('#c').addClass('active');
-});
+
