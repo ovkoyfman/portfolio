@@ -24,7 +24,7 @@ $(window).scroll(function() {
     $('#h').removeClass('active');
     $('#p').removeClass('active');
     $('#a').addClass('active');
-  } else if ($(this).scrollTop() < offsetContact)  /*height in pixels when the navbar becomes non opaque*/ 
+  } else if ($(this).scrollTop() < offsetContact-100)  /*height in pixels when the navbar becomes non opaque*/ 
   {
     $('.navbar').addClass('navbar-portfolio');
     $('.navbar').addClass('navbar-default');
@@ -54,4 +54,10 @@ $('#h').click(function() {
   $('#p').removeClass('active');
   $('#c').removeClass('active');
   $('#h').addClass('active');
+});
+$('#c').click(function() {
+  $('#a').removeClass('active');
+  $('#p').removeClass('active');
+  $('#h').removeClass('active');
+  $('#c').addClass('active');
 });
