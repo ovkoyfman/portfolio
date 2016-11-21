@@ -52,3 +52,8 @@ $(window).scroll(function() {
     $('#a').addClass('active');
   }
 });
+$(window).resize(function() {
+ offsetAbout = divAbout.offset().top;
+ offsetPortfolio = divPortfolio.offset().top;
+ offsetContact = divContact.offset().top;
+});

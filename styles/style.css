@@ -91,7 +91,7 @@ a {
   text-shadow: 2px 2px 8px #000;
 }
 .portfolio{
-  height: 30%;
+  height: 35%;
   background-color: #2B2D2B;
 }
 .div-portfolio-top,.div-about-top {
@@ -104,15 +104,25 @@ a {
   background-color: transparent;
   color:white;
 }
-.first{
-  background-image: url("../img/todo_app.png");
+.first,.second,.third,.fourth{
+  height: 100%;
   background-size: cover;
   background-position: center;
 }
+.first{
+  background-image: url("../img/todo_app.png");
+}
 .second {
   background-image: url("../img/angular_shopping_list.png");
-  background-size: cover;
-  background-position: center;
+}
+.third {
+  background-image: url("../img/api.png");
+}
+.text{
+  position: absolute;
+  bottom: 10%;
+  left:38%;
+  text-shadow: 2px 2px 8px #FFF;
 }
 .navbar-nav > li > a:hover, {
   background-color:inherit;
@@ -121,4 +131,9 @@ color:black;
 }
 .navbar-default .navbar-nav>.active>a{
   color: #FFF;
+}
+img {
+  margin-top: 10%;
+  max-width: 100%; 
+  height: auto;
 }
