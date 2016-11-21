@@ -104,20 +104,6 @@ a {
   background-color: transparent;
   color:white;
 }
-.first,.second,.third,.fourth{
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-}
-.first{
-  background-image: url("../img/todo_app.png");
-}
-.second {
-  background-image: url("../img/angular_shopping_list.png");
-}
-.third {
-  background-image: url("../img/api.png");
-}
 .text{
   position: absolute;
   bottom: 10%;
