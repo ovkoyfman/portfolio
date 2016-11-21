@@ -1,7 +1,10 @@
-
+@font-face{
+  font-family:quicksand;
+  src: url("../font/quicksand/Quicksand-Regular.otf");
+}
 .background-home {
   background-image:
-    url("https://images.unsplash.com/photo-1445620466293-d6316372ab59?crop=entropy&fit=crop&fm=jpg&h=1000&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925");
+    url("../img/coffee-desk-laptop-notebook.jpg");
   background-attachment: fixed;
   background-size:cover;
 }
@@ -38,6 +41,11 @@ background-attachment: fixed;
 .push-buttom{
   margin-bottom: 100px;
 }
+h2{
+  font-family: quicksand;
+  font-size:2em;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 8px #000;
 }
 button {
   height: 50px;
@@ -49,15 +57,32 @@ a {
   color: #fff;
   text-shadow: 2px 2px 8px #000;
 }
+.nav>li>a:focus, .nav>li>a:hover{
+  background-color: initial;
+}
+a:hover{
+  color: #000;
+  text-shadow: 2px 2px 8px #000;
+}
+a:focus, a:active{
+  outline: none;
+}
+
 .navbar-default .navbar-brand, .navbar-default .navbar-nav>li.active>a {
   color: #fff;
+  font-size: 1.5em;
+}
+li.active>a {
+  color: #fff;
+  font-size: 1.5em;
 }
 .navbar-home {
-  background-color: #35364A;
+  background-color: #88A12C;
 }
 .navbar-about .navbar-nav>.active>a, .navbar-about .navbar-nav>li>a:hover {
   background-color:#406558; 
   color:#fff;
+
 }
 .navbar-about .navbar-nav>.active>a:hover {
   background-color:#406558;
@@ -82,7 +107,8 @@ a {
 .btn-default {
     margin-bottom: 30px;
     color: #FFF;
-    background-color: #373C5D;
+    background-color: #88A12C;
+    text-shadow: 2px 2px 8px #000;
     border-color: #FFF;
 }
 .top {
@@ -99,7 +125,7 @@ button.resume{
 }
 
 button.reference:hover,:visited,:active{
-  background-color: #A6AAAD;
+  background-color: #FCD548;
   color: white;
   border:1px solid white;
   
@@ -125,10 +151,11 @@ button.resume:hover,:visited,:active{
   color:white;
 }
 .text{
+  color: #FFF;
   position: absolute;
   bottom: 10%;
   left:38%;
-  text-shadow: 2px 2px 8px #FFF;
+  text-shadow: 2px 2px 8px #000;
 }
 .navbar-nav > li > a:hover, {
   background-color:inherit;
@@ -142,4 +169,10 @@ img {
   margin-top: 10%;
   max-width: 100%; 
   height: auto;
+}
+.navbar-default .navbar-nav>li>a{
+  color:#C4C3C9;
+}
+a:focus{
+  border: none;
 }

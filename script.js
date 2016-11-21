@@ -5,15 +5,7 @@ var offsetPortfolio = divPortfolio.offset().top;
 var divContact = $( "div#contact" );
 var offsetContact = divContact.offset().top;
 $(window).scroll(function() {
-  if($(this).scrollTop() < 50)
-  {
-    $('.navbar').removeClass('navbar-default');
-    $('.navbar').addClass('navbar-clear');
-    $('.navbar').removeClass('navbar-home');
-    $('.navbar').removeClass('navbar-about');
-    $('.navbar').removeClass('navbar-portfolio');
-  }
-  else if ($(this).scrollTop() < offsetAbout - 100)
+  if ($(this).scrollTop() < offsetAbout - 100)
   {
     $('.navbar').addClass('navbar-default');
     $('.navbar').addClass('navbar-home');
@@ -49,11 +41,17 @@ $(window).scroll(function() {
     $('.navbar').removeClass('navbar-about');
     $('.navbar').removeClass('navbar-home');
     $('#p').removeClass('active');
-    $('#a').addClass('active');
+    $('#c').addClass('active');
   }
 });
 $(window).resize(function() {
  offsetAbout = divAbout.offset().top;
  offsetPortfolio = divPortfolio.offset().top;
  offsetContact = divContact.offset().top;
+});
+$('#h').click(function() {
+  $('#a').removeClass('active');
+  $('#p').removeClass('active');
+  $('#c').removeClass('active');
+  $('#h').addClass('active');
 });
